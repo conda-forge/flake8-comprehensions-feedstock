@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "8ab9e758ee664bf517dbfef76903b61533491ad9dbe40f93b8eb4e5190ec81e0" %}
+{% set version = "1.4.0" %}
+{% set sha256 = "c0d58db575112447b3d2177532cf6ec971427a9332278960268a61fce7d66761" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python
-    - flake8
+    - flake8 !=3.2.0
 
 test:
   commands:
