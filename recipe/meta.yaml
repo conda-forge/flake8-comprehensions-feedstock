@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "b83891fec0e680b07aa1fd92e53eb6993be29a0f3673a09badbe8da307c445e0" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "912a831ff61975b394c3f5444dbc82d033730558574c45373893442f7e7e062d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,13 +13,13 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.4
     - setuptools
   run:
     - python
