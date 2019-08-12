@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About flake8-comprehensions
 ===========================
 
@@ -18,8 +14,15 @@ Summary: A flake8 plugin that helps you write better list/set/dict comprehension
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flake8-comprehensions-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flake8-comprehensions-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2920&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/flake8-comprehensions-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
