@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "e36fc12bd3833e0b34fe0639b7a817d32c86238987f532078c57eafdc7a8a219" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "1d731dcccbef1f9a68b54d6846cf4e45cd2fea397cb0b71c463aab965118f594" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
