@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "3.2.2" %}
-{% set sha256 = "e7db586bb6eb95afdfd87ed244c90e57ae1352db8ef0ad3012fca0200421e5df" %}
+{% set version = "3.2.3" %}
+{% set sha256 = "d5751acc0f7364794c71d06f113f4686d6e2e26146a50fa93130b9f200fe160d" %}
 
 package:
   name: {{ name|lower }}
@@ -28,13 +28,13 @@ requirements:
 
 test:
   commands:
-    - "flake8 --version | grep flake8-comprehensions:"
+    - 'flake8 --version | grep flake8-comprehensions:'
 
 about:
   home: https://github.com/adamchainz/flake8-comprehensions
   license: ISC
   license_file: LICENSE
-  summary: 'A flake8 plugin that helps you write better list/set/dict comprehensions.'
+  summary: A flake8 plugin that helps you write better list/set/dict comprehensions.
   dev_url: https://github.com/adamchainz/flake8-comprehensions
 
 extra:
