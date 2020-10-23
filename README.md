@@ -5,11 +5,11 @@ Home: https://github.com/adamchainz/flake8-comprehensions
 
 Package license: ISC
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-comprehensions-feedstock/blob/master/LICENSE.txt)
 
 Summary: A flake8 plugin that helps you write better list/set/dict comprehensions.
 
-
+Development: https://github.com/adamchainz/flake8-comprehensions
 
 Current build status
 ====================
