@@ -32,7 +32,8 @@ test:
 
 about:
   home: https://github.com/adamchainz/flake8-comprehensions
-  license: ISC
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: A flake8 plugin that helps you write better list/set/dict comprehensions.
   dev_url: https://github.com/adamchainz/flake8-comprehensions
