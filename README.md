@@ -3,7 +3,7 @@ About flake8-comprehensions
 
 Home: https://github.com/adamchainz/flake8-comprehensions
 
-Package license: ISC
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-comprehensions-feedstock/blob/master/LICENSE.txt)
 
