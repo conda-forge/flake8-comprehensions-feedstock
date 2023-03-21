@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "3.11.0" %}
-{% set sha256 = "d06a95fdf2dabf6a7632550fed4a10d0449d00473875b1e4b167ca84d4daee59" %}
+{% set version = "3.11.1" %}
+{% set sha256 = "31d6386c125e325d7c84290d71f5354295dbbf5a8d47259708fa349aa0969523" %}
 
 package:
   name: {{ name|lower }}
