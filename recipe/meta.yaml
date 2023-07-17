@@ -1,6 +1,6 @@
 {% set name = "flake8-comprehensions" %}
-{% set version = "3.13.0" %}
-{% set sha256 = "83cf98e816c9e23360f36aaf47de59a5b21437fdff8a056c46e2ad49f81861bf" %}
+{% set version = "3.14.0" %}
+{% set sha256 = "81768c61bfc064e1a06222df08a2580d97de10cb388694becaf987c331c6c0cf" %}
 
 package:
   name: {{ name|lower }}
@@ -19,12 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools
   run:
-    - python >=3.7
+    - python >=3.8
     - flake8 >=3.0,!=3.2.0
-    - importlib_metadata
 
 test:
   commands:
